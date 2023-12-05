@@ -44,6 +44,7 @@
                 </div>
             </nav>
             <div class="container" id="bsr-wrapper"></div>
+            <div class='py-3 my-4'></div>
             <h1>Chicago Car Crash Analysis - Project 2-20</h1>
             <div class='py-3 my-4'></div>
             <h2>Exploration Questions and Project Topic Choice</h2>
@@ -75,18 +76,16 @@
                 <div class="col"><img src="https://unsplash.it/300/300"
                         class="img-fluid mr-auto d-block border-0 rounded-0"></div>
                 <div class="col-md-9">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis rerum quae, ut iusto placeat!
-                        Ab porro ipsa ad nam repudiandae, dicta ducimus placeat, ipsam in, doloribus obcaecati omnis
-                        esse aspernatur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum placeat at,
-                        deleniti minus necessitatibus, dolore adipisci ipsum provident distinctio in. Excepturi omnis,
-                        nisi. Possimus consequuntur unde labore rem in natus.</p>
+                    <p>Link: https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if</p>
+                    <p>We are using three datasets from the City of Chicago Data Portal. These datasets all revolve around car crash incidents. One dataset provides information about the vehicle involved in the crash. One dataset provides information about the victims of the car crash. The third dataset provides information about the location of the crashes. Due to the constraints of Google Colab, we limited the data to between 12 am on October 31, 2022 and 11:45 pm on November 1, 2022. We also took data from 12 am on October 17, 2023 to 11:45 pm on October 18, 2023. We wanted a sample from another day so we could see if there were a particularly large number of car crashes on Halloween.</p>We are using three datasets from the City of Chicago Data Portal. These datasets all revolve around car crash incidents. One dataset provides information about the vehicle involved in the crash. One dataset provides information about the victims of the car crash. The third dataset provides information about the location of the crashes. Due to the constraints of Google Colab, we limited the data to between 12 am on October 31, 2022 and 11:45 pm on November 1, 2022. We also took data from 12 am on October 17, 2023 to 11:45 pm on October 18, 2023. We wanted a sample from another day so we could see if there were a particularly large number of car crashes on Hallowee.</p>
                 </div>
             </div>
             <div class='py-3 my-4'></div>
             <h2>Data Journey and Caveats</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid eveniet fugit exercitationem earum
-                quod. Ad doloribus dignissimos quaerat error aspernatur est, voluptatem deserunt at, dolores asperiores
-                incidunt eligendi commodi sapiente.</p>
+            <p>Originally we started out by limiting the dataset to the month of October 2023. However, after attempting to upload it all into a Google Colab file we realized that was unfeasible. We then thought about if there were any significant days we wanted to study, and the first one that came to mind was Halloween. This limited the dataset to one day which was much more manageable. 
+We chose to use three different datasets because we felt that it captured the most information about car crashes in Chicago. If we had just stuck to one dataset, we would have gotten an incomplete picture about car crashes in Chicago. 
+We used an API to get the JSON data from the website. The JSON data was in a list format, so we processed it into differentiated lists that sorted the different categories within the data. We then sorted some of the data into dictionaries to make it easier to count instances of certain data points. We then translated all the data into DataFrames to make visualizations.   
+We do recognize that it is unorthodox to work with three different datasets, but because they are all from the same larger dataset and are all from the same timeframe, we feel confident that they can be effectively compared to each other. </p>
             <h2>About Us</h2>
             <div class="row">
                 <div class="col-md-9">
